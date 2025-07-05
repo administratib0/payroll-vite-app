@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-export default { // Make sure it's 'export default' for Vite
+module.exports = { // <--- CHANGE THIS LINE
   content: [
-    "./index.html", // <--- IMPORTANT for Vite to scan your public HTML
+    "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
